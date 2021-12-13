@@ -292,7 +292,7 @@ static void activate(GtkApplication *app, gpointer user_data) {
     gtk_window_set_default_size(GTK_WINDOW(window), N*DEFAULT_BOX_SIZE, N*DEFAULT_BOX_SIZE);
 
     // Load the knight svg
-    knight_svg = rsvg_handle_new_from_file("../bN.svg", NULL);
+    knight_svg = rsvg_handle_new_from_file("./bN.svg", NULL);
 
     // Set up the drawing area
     darea = gtk_drawing_area_new();
